@@ -19,7 +19,7 @@ public class MainActivity extends Activity  implements PullDownListView.OnRefres
 	private Handler mHandler = new Handler();
 	private int maxAount = 20;//设置了最大数据值
 	 
-    @Override
+    @Override 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
